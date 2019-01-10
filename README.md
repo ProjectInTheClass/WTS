@@ -8,3 +8,6 @@
 
 http://zine.istyle24.com/Beauty/BeautyView.aspx?Idx=287
 성분 정보
+
+https://www.fragrantica.com/perfume/Juicy-Couture/Viva-la-Juicy-4410.html
+성분 사이트참고
