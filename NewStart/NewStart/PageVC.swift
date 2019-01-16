@@ -62,7 +62,7 @@ class PageVC: UIPageViewController, UIPageViewControllerDataSource, UIPageViewCo
     }
     
     
-    public func presentationCount(for pageViewController: UIPageViewController) -> Int{
+    /*public func presentationCount(for pageViewController: UIPageViewController) -> Int{
         return VCArr.count
     }
     
@@ -71,5 +71,5 @@ class PageVC: UIPageViewController, UIPageViewControllerDataSource, UIPageViewCo
             return 0
         }
         return firstViewControllerIndex
-    }
+    }*/
 }
