@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="i5X-bA-Yob">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -24,7 +24,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1175.2" y="-372.86356821589209"/>
+            <point key="canvasLocation" x="284" y="310"/>
         </scene>
         <!--Search-->
         <scene sceneID="y5L-ue-esO">
@@ -53,36 +53,41 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HNs-cB-L1X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1175.2" y="296.40179910044981"/>
+            <point key="canvasLocation" x="1191" y="310"/>
         </scene>
-        <!--Liked-->
-        <scene sceneID="ikY-fV-9Vb">
+        <!--Collection View Controller-->
+        <scene sceneID="a8i-Hk-gK6">
             <objects>
-                <tableViewController title="Liked" id="hLQ-Ef-j4z" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7QK-T9-Egf">
+                <collectionViewController id="uV2-pU-87Y" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="nCv-bd-36t">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="KlY-i6-Nci">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KlY-i6-Nci" id="5hA-3V-xH1">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rHu-3b-fpe">
+                            <size key="itemSize" width="150" height="150"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="3rl-PZ-98F">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
                         <connections>
-                            <outlet property="dataSource" destination="hLQ-Ef-j4z" id="uAR-xR-EjK"/>
-                            <outlet property="delegate" destination="hLQ-Ef-j4z" id="E7P-R6-a2h"/>
+                            <outlet property="dataSource" destination="uV2-pU-87Y" id="LPk-UP-Dvy"/>
+                            <outlet property="delegate" destination="uV2-pU-87Y" id="YqL-cr-fOa"/>
                         </connections>
-                    </tableView>
-                    <tabBarItem key="tabBarItem" title="Liked" id="lz7-WO-A3O"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="g8O-Ci-ZZY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tPh-t0-4qx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1175.2" y="979.16041979010504"/>
+            <point key="canvasLocation" x="2074" y="310"/>
         </scene>
         <!--More-->
         <scene sceneID="Qnj-wA-D1W">
@@ -111,27 +116,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XLV-9l-UL6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1191.2" y="1705.9970014992505"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="2G6-FM-lEw">
-            <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="i5X-bA-Yob" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oqh-ri-1z6">
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="NCV-e8-lqB"/>
-                        <segue destination="l3r-gY-4kB" kind="relationship" relationship="viewControllers" id="da5-Wy-GIA"/>
-                        <segue destination="hLQ-Ef-j4z" kind="relationship" relationship="viewControllers" id="uFi-L2-Mpb"/>
-                        <segue destination="oiG-ug-5eY" kind="relationship" relationship="viewControllers" id="d8e-w9-FW2"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cbt-sj-SDz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="236" y="666.11694152923542"/>
+            <point key="canvasLocation" x="2934" y="310"/>
         </scene>
     </scenes>
 </document>
