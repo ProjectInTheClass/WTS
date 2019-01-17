@@ -2,3 +2,10 @@
 
 var fruits : [String:Int] = ["Apple" : 4, "Banana" : 3, "Pear" : 9, "Strawberry" : 20, "Lime" : 6, "Peach" : 14, "Orange" : 2]
 
+var fruitCount = fruits.count
+//var values : [String:Int]
+for (fruit,number) in fruits {
+    if number > fruitCount{
+        print("\(fruit),\(number)")
+    }
+}
