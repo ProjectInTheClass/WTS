@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F08694121EF00410080BB4B /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08694021EF00410080BB4B /* PageVC.swift */; };
+		3F08696721EF29EE0080BB4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08696621EF29ED0080BB4B /* ViewController.swift */; };
 		3F5B3B9C21EEEC3E00076327 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B3B9B21EEEC3E00076327 /* SearchViewController.swift */; };
 		3FA9D17F21EEEE3C00AF36AB /* PerfumeList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9D17E21EEEE3C00AF36AB /* PerfumeList.plist */; };
 		3FEA184621EDD2B2002B52FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA184521EDD2B2002B52FE /* AppDelegate.swift */; };
-		3FEA184821EDD2B2002B52FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA184721EDD2B2002B52FE /* ViewController.swift */; };
 		3FEA184B21EDD2B2002B52FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA184921EDD2B2002B52FE /* Main.storyboard */; };
 		3FEA184D21EDD2B3002B52FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA184C21EDD2B3002B52FE /* Assets.xcassets */; };
 		3FEA185021EDD2B3002B52FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA184E21EDD2B3002B52FE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F08694021EF00410080BB4B /* PageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
+		3F08696621EF29ED0080BB4B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F5B3B9B21EEEC3E00076327 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		3FA9D17E21EEEE3C00AF36AB /* PerfumeList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PerfumeList.plist; sourceTree = "<group>"; };
 		3FEA184221EDD2B2002B52FE /* NewStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEA184521EDD2B2002B52FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FEA184721EDD2B2002B52FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FEA184A21EDD2B2002B52FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FEA184C21EDD2B3002B52FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FEA184F21EDD2B3002B52FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,13 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				3FEA184521EDD2B2002B52FE /* AppDelegate.swift */,
-				3FEA184721EDD2B2002B52FE /* ViewController.swift */,
+				3F08696621EF29ED0080BB4B /* ViewController.swift */,
 				3FEA184921EDD2B2002B52FE /* Main.storyboard */,
 				3FEA184C21EDD2B3002B52FE /* Assets.xcassets */,
 				3FEA184E21EDD2B3002B52FE /* LaunchScreen.storyboard */,
 				3FEA185121EDD2B3002B52FE /* Info.plist */,
 				3F5B3B9B21EEEC3E00076327 /* SearchViewController.swift */,
 				3FA9D17E21EEEE3C00AF36AB /* PerfumeList.plist */,
+				3F08694021EF00410080BB4B /* PageVC.swift */,
 			);
 			path = NewStart;
 			sourceTree = "<group>";
@@ -142,8 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F08696721EF29EE0080BB4B /* ViewController.swift in Sources */,
 				3F5B3B9C21EEEC3E00076327 /* SearchViewController.swift in Sources */,
-				3FEA184821EDD2B2002B52FE /* ViewController.swift in Sources */,
+				3F08694121EF00410080BB4B /* PageVC.swift in Sources */,
 				3FEA184621EDD2B2002B52FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
