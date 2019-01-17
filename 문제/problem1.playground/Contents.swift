@@ -19,13 +19,15 @@ import Foundation
 
 class Market {
     let fruit = [ "딸기","사과","바나나","수박","참외"]
-    let snack = [ "홈런볼", "콘칩", "스윙칩", "깐쵸", "프링글스", "자갈치", "오레오", "꼬북칩"]
+    let snack = [ "홈런볼", "콘칩", "스윙칩", "깐쵸" , "프링글스", "자갈치", "오레오", "꼬북칩"]
     let meet = [ "소", "돼지", "양", "닭"]
     let fish = [ "광어","고등어","도미","연어","참치"]
 
     
     class func calculate(_ source:[String: [String]]) -> Double {
         var result:Double = 0
+        
+        정말 어렵네요
         
         return result
     }
