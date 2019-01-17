@@ -28,7 +28,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="36G-fu-OG0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="36G-fu-OG0" userLabel="GifView">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -37,13 +37,12 @@
                         <viewLayoutGuide key="safeArea" id="RzG-qO-vyf"/>
                     </view>
                     <connections>
-                        <outlet property="GifView" destination="36G-fu-OG0" id="tbv-JZ-ois"/>
-                        <outlet property="GifView1" destination="36G-fu-OG0" id="ZAF-6d-UNI"/>
+                        <outlet property="GifView" destination="36G-fu-OG0" id="H3Y-7l-vg3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tEc-vQ-IdH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="464.80000000000001" y="-1462.2188905547227"/>
+            <point key="canvasLocation" x="430" y="-1462"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OrT-iy-43a">
@@ -53,7 +52,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BBm-Xi-d7g">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BBm-Xi-d7g" userLabel="GifView2">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -62,12 +61,12 @@
                         <viewLayoutGuide key="safeArea" id="PQz-1A-lXx"/>
                     </view>
                     <connections>
-                        <outlet property="GifView2" destination="BBm-Xi-d7g" id="PgW-LR-c0z"/>
+                        <outlet property="GifView2" destination="BBm-Xi-d7g" id="2Nu-W5-0mY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mz3-IM-8Zc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1220" y="-1462.2188905547227"/>
+            <point key="canvasLocation" x="1180" y="-1462"/>
         </scene>
         <!--Search-->
         <scene sceneID="y5L-ue-esO">
@@ -170,7 +169,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u4J-Dr-dOP">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u4J-Dr-dOP" userLabel="GifView3">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -179,12 +178,12 @@
                         <viewLayoutGuide key="safeArea" id="Tm0-F6-u66"/>
                     </view>
                     <connections>
-                        <outlet property="GifView3" destination="u4J-Dr-dOP" id="j9k-y5-hOk"/>
+                        <outlet property="GifView3" destination="u4J-Dr-dOP" id="og4-Pc-dSe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8dU-Mg-7rZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1944.8" y="-1462.2188905547227"/>
+            <point key="canvasLocation" x="1919" y="-1462"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Mj3-L0-iFu">
