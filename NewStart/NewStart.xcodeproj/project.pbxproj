@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F05A97621F047E200A22C34 /* Motion18267.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F05A97521F047E200A22C34 /* Motion18267.gif */; };
 		3F08694121EF00410080BB4B /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08694021EF00410080BB4B /* PageVC.swift */; };
 		3F08696721EF29EE0080BB4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08696621EF29ED0080BB4B /* ViewController.swift */; };
+		3F08696921EF2F320080BB4B /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08696821EF2F320080BB4B /* Swift+Gif.swift */; };
+		3F08696B21EF2FF50080BB4B /* Embers8625.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F08696A21EF2FF40080BB4B /* Embers8625.gif */; };
 		3F5B3B9C21EEEC3E00076327 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B3B9B21EEEC3E00076327 /* SearchViewController.swift */; };
 		3FA9D17F21EEEE3C00AF36AB /* PerfumeList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9D17E21EEEE3C00AF36AB /* PerfumeList.plist */; };
 		3FEA184621EDD2B2002B52FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA184521EDD2B2002B52FE /* AppDelegate.swift */; };
@@ -18,8 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F05A97521F047E200A22C34 /* Motion18267.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Motion18267.gif; path = ../../Motion18267.gif; sourceTree = "<group>"; };
 		3F08694021EF00410080BB4B /* PageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
 		3F08696621EF29ED0080BB4B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F08696821EF2F320080BB4B /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		3F08696A21EF2FF40080BB4B /* Embers8625.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Embers8625.gif; path = ../../Embers8625.gif; sourceTree = "<group>"; };
 		3F5B3B9B21EEEC3E00076327 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		3FA9D17E21EEEE3C00AF36AB /* PerfumeList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PerfumeList.plist; sourceTree = "<group>"; };
 		3FEA184221EDD2B2002B52FE /* NewStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,11 +70,14 @@
 				3F08696621EF29ED0080BB4B /* ViewController.swift */,
 				3FEA184921EDD2B2002B52FE /* Main.storyboard */,
 				3FEA184C21EDD2B3002B52FE /* Assets.xcassets */,
+				3F08696A21EF2FF40080BB4B /* Embers8625.gif */,
+				3F05A97521F047E200A22C34 /* Motion18267.gif */,
 				3FEA184E21EDD2B3002B52FE /* LaunchScreen.storyboard */,
 				3FEA185121EDD2B3002B52FE /* Info.plist */,
 				3F5B3B9B21EEEC3E00076327 /* SearchViewController.swift */,
 				3FA9D17E21EEEE3C00AF36AB /* PerfumeList.plist */,
 				3F08694021EF00410080BB4B /* PageVC.swift */,
+				3F08696821EF2F320080BB4B /* Swift+Gif.swift */,
 			);
 			path = NewStart;
 			sourceTree = "<group>";
@@ -131,8 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F08696B21EF2FF50080BB4B /* Embers8625.gif in Resources */,
 				3FEA185021EDD2B3002B52FE /* LaunchScreen.storyboard in Resources */,
 				3FEA184D21EDD2B3002B52FE /* Assets.xcassets in Resources */,
+				3F05A97621F047E200A22C34 /* Motion18267.gif in Resources */,
 				3FEA184B21EDD2B2002B52FE /* Main.storyboard in Resources */,
 				3FA9D17F21EEEE3C00AF36AB /* PerfumeList.plist in Resources */,
 			);
@@ -149,6 +160,7 @@
 				3F5B3B9C21EEEC3E00076327 /* SearchViewController.swift in Sources */,
 				3F08694121EF00410080BB4B /* PageVC.swift in Sources */,
 				3FEA184621EDD2B2002B52FE /* AppDelegate.swift in Sources */,
+				3F08696921EF2F320080BB4B /* Swift+Gif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
