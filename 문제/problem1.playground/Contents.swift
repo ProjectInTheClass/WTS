@@ -27,6 +27,7 @@ class Market {
     class func calculate(_ source:[String: [String]]) -> Double {
         var result:Double = 0
         
+        
         return result
     }
 }
