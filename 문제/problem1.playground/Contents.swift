@@ -25,7 +25,13 @@ class Market {
 
     
     class func calculate(_ source:[String: [String]]) -> Double {
-        var result:Double = 0
+        var result:Int = 0
+        for (p, list) in source {
+            //chars: [String}
+            for l in list {
+                result = list.count
+            }
+        }
         
         
         return result
