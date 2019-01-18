@@ -26,6 +26,8 @@ class Market {
     
     class func calculate(_ source:[String: [String]]) -> Double {
         var result:Double = 0
+        let discount = ["fruit": 3 , "snack" : 6, "meet" : 2, "fish" : 4]
+        let discountarr = source.values.count
         
         정말 어렵네요
         
