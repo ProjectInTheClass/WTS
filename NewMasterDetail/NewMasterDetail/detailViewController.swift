@@ -20,6 +20,8 @@ class detailViewController: UIViewController {
     @IBOutlet weak var baseNote: UILabel!
     @IBOutlet weak var perfumeImage: UIImageView!
     @IBOutlet weak var likeButton: UIButton!
+    @IBOutlet weak var long: UILabel!
+    @IBOutlet weak var distance: UILabel!
     
     
     override func viewDidLoad() {
@@ -57,6 +59,8 @@ class detailViewController: UIViewController {
             topNote.text = item.note?.t
             middleNote.text = item.note?.m
             baseNote.text = item.note?.b
+            long.text = item.long
+            distance.text = item.distance
 
 
             self.title = item.name
