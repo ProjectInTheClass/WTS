@@ -12,6 +12,7 @@ class ReserveCell: UITableViewCell {
     
     @IBOutlet weak var perfumeLabel1: UILabel!
     @IBOutlet weak var perfumeLabel2: UILabel!
+    @IBOutlet weak var perfumeImage: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
