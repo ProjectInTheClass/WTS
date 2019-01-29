@@ -13,6 +13,7 @@ class myCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var main: UILabel!
     @IBOutlet weak var shapeView: UIView!
+    @IBOutlet weak var perfumeImage: UIImageView!
     
     
 }

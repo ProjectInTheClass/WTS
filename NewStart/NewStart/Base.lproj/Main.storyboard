@@ -18,7 +18,7 @@
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IrT-08-aDX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-318" y="-1462"/>
+            <point key="canvasLocation" x="-290" y="-1462"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JIy-A1-Vlx">
@@ -42,7 +42,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tEc-vQ-IdH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="430" y="-1462"/>
+            <point key="canvasLocation" x="428" y="-1462"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OrT-iy-43a">
@@ -66,7 +66,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mz3-IM-8Zc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1180" y="-1462"/>
+            <point key="canvasLocation" x="1193" y="-1462"/>
         </scene>
         <!--Search-->
         <scene sceneID="y5L-ue-esO">
@@ -183,7 +183,28 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8dU-Mg-7rZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1919" y="-1462"/>
+            <point key="canvasLocation" x="1948" y="-1462"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LTe-kE-oSY">
+            <objects>
+                <viewController restorationIdentifier="FourthVC" storyboardIdentifier="FourthVC" id="ybr-Is-f8z" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v0U-tT-Z7E">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JTy-O6-BHG" userLabel="GifView4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="c2f-Dy-4dc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AkM-z8-68R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2674" y="-1462"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Mj3-L0-iFu">
@@ -205,6 +226,138 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q79-hG-fbN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1287.2" y="-434.93253373313348"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NAf-uJ-ZPv">
+            <objects>
+                <viewController restorationIdentifier="FifthVC" storyboardIdentifier="FifthVC" id="lux-Nf-qMU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zeq-ND-gR1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nMI-rU-ptd" userLabel="GifView5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="1EJ-DB-aBm"/>
+                    </view>
+                    <connections>
+                        <outlet property="view" destination="zeq-ND-gR1" id="sNH-yA-BDf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qAt-Qr-C4k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3388" y="-1462"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2uw-5g-ZWG">
+            <objects>
+                <viewController restorationIdentifier="SixthVC" storyboardIdentifier="SixthVC" id="fBy-gr-ff9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hZq-X0-WYm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cPj-0P-zWN" userLabel="GifView6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="PV1-4U-dlm"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lRQ-td-ayJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4148" y="-1462"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IsM-Dm-mos">
+            <objects>
+                <viewController restorationIdentifier="SeventhVC" storyboardIdentifier="SeventhVC" id="H3J-PB-Fo7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hQq-kY-naN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o0J-6c-PFd" userLabel="GifView7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="0Qb-2S-LPZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="view" destination="o0J-6c-PFd" id="j4g-HB-qsF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bfR-pS-aGi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4906" y="-1462"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hML-Wr-hq5">
+            <objects>
+                <viewController restorationIdentifier="EighthVC" storyboardIdentifier="EighthVC" id="IEI-9E-3FX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d6U-QN-ppb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aIk-QU-dqh" userLabel="GifView8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="snS-75-nU6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="87A-Qs-jpe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5634" y="-1462"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Hak-Oa-gBH">
+            <objects>
+                <viewController restorationIdentifier="NinethVC" storyboardIdentifier="NinethVC" id="ek2-RI-ClB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6u6-wC-VkW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Tq-de-GbN" userLabel="GifView9">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="wZA-3f-dcq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="69s-rT-gNs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6378" y="-1462"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cSX-6r-bYU">
+            <objects>
+                <viewController restorationIdentifier="TenthVC" storyboardIdentifier="TenthVC" id="8wI-6V-Bf8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sd9-lm-dt8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wPJ-Nh-DKC" userLabel="GifView10">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Zt0-ER-RlD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AXe-YU-mdL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7116" y="-1462"/>
         </scene>
     </scenes>
 </document>

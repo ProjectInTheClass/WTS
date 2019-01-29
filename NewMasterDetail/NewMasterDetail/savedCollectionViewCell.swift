@@ -1,13 +1,16 @@
 //
-//  savedCollectionViewCell.swift
+//  SavedCollectionViewCell.swift
 //  NewMasterDetail
 //
-//  Created by linc on 24/01/2019.
+//  Created by linc on 28/01/2019.
 //  Copyright © 2019 linc. All rights reserved.
 //
 
+
 import UIKit
 
-class savedCollectionViewCell: UICollectionViewCell {
+class SavedCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var perfumeImage: UIImageView!
 }
+

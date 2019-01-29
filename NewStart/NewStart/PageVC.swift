@@ -11,7 +11,7 @@ import UIKit
 class PageVC: UIPageViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate{
     
     lazy var VCArr: [UIViewController] = {
-        return [self.VCInstance(name: "FirstVC"), self.VCInstance(name: "SecondVC"), self.VCInstance(name: "ThirdVC")]
+        return [self.VCInstance(name: "FirstVC"), self.VCInstance(name: "SecondVC"), self.VCInstance(name: "ThirdVC"), self.VCInstance(name: "FourthVC"), self.VCInstance(name: "FifthVC"), self.VCInstance(name: "SixthVC"), self.VCInstance(name: "SeventhVC")/*, self.VCInstance(name: "EighthVC"), self.VCInstance(name: "NinethVC"), self.VCInstance(name: "TenthVC")*/]
     }()
     
     private func VCInstance(name: String)->UIViewController{
