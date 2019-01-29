@@ -24,11 +24,15 @@ extension ViewController: UITableViewDataSource {
             return Liked.shared.AccordArr.count
         }
         
+<<<<<<< HEAD
 //        if searching {
 //            return searchBrand.count
 //        }else{
 //            return Liked.shared.AccordArr.count
 //        }
+=======
+
+>>>>>>> 1e640f6a3cfd1b07d8038e6ef4fcec306102ccde
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -37,9 +41,17 @@ extension ViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ReserveCell", for: indexPath) as! ReserveCell
         
         if searching {
+<<<<<<< HEAD
             cell.perfumeLabel1.text = searchName[indexPath.row].name
             cell.perfumeLabel2.text = searchName[indexPath.row].main
         } else {
+=======
+            
+            cell.perfumeLabel1.text = searchName[indexPath.row].name
+            cell.perfumeLabel2.text = searchName[indexPath.row].main
+        } else {
+            cell.perfumeImage.image = UIImage(named: item.image!)
+>>>>>>> 1e640f6a3cfd1b07d8038e6ef4fcec306102ccde
             cell.perfumeLabel1.text = item.name
             cell.perfumeLabel2.text = item.main
         }
@@ -144,7 +156,11 @@ class ViewController: UIViewController {
             
         }
     }
+<<<<<<< HEAD
     //var AccordArr : [Item] = []
+=======
+  
+>>>>>>> 1e640f6a3cfd1b07d8038e6ef4fcec306102ccde
    
     
     
@@ -189,9 +205,15 @@ class ViewController: UIViewController {
     
     
   
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 1e640f6a3cfd1b07d8038e6ef4fcec306102ccde
     
     
+
     
+<<<<<<< HEAD
     //데이터는 너무 많으니까 클래스 맨 뒤로 보냈음
 
     
@@ -234,6 +256,8 @@ class ViewController: UIViewController {
 //             brand: "구찌", accord: "플로랄", long: "중", distance: "중")
 //    ]
     
+=======
+>>>>>>> 1e640f6a3cfd1b07d8038e6ef4fcec306102ccde
     
     
 }

@@ -14,6 +14,7 @@ class firstViewController: UIViewController, UIScrollViewDelegate {
     
     @IBOutlet weak var BackgroundImage: UIImageView!
     
+<<<<<<< HEAD
     @IBOutlet weak var accordButton: UIButton!
 
 //    @IBOutlet weak var mainButton1: UIButton!
@@ -24,12 +25,19 @@ class firstViewController: UIViewController, UIScrollViewDelegate {
     
     @IBOutlet weak var mainLabel: UILabel!
     
+=======
+    @IBOutlet weak var IndexButton: UIButton!
+>>>>>>> 1e640f6a3cfd1b07d8038e6ef4fcec306102ccde
     
     var imageArray = [UIImage]()
     let GifView1 = UIImage.gifImageWithName(name: "floral")
     let GifView2 = UIImage.gifImageWithName(name: "oriental")
     let GifView3 = UIImage.gifImageWithName(name: "woody")
+<<<<<<< HEAD
     let GifView4 = UIImage.gifImageWithName(name: "sweet")
+=======
+    let GifView4 = UIImage.gifImageWithName(name: "rainy")
+>>>>>>> 1e640f6a3cfd1b07d8038e6ef4fcec306102ccde
     let GifView5 = UIImage.gifImageWithName(name: "fruity")
     let GifView6 = UIImage.gifImageWithName(name: "spicy")
     let GifView7 = UIImage.gifImageWithName(name: "oceanic")
@@ -50,6 +58,7 @@ class firstViewController: UIViewController, UIScrollViewDelegate {
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
         blurEffectView.alpha = 0.4
         blurEffectView.frame = view.bounds
+<<<<<<< HEAD
         BackgroundImage.image = UIImage(named: "floral_bg")
         mainLabel.text = "\"이슬을 머금은 꽃향기는 맡아보실래요?\""
         //BackgroundImage.backgroundColor = hexStringToUIColor(hex: "#f6d9e5")
@@ -57,25 +66,42 @@ class firstViewController: UIViewController, UIScrollViewDelegate {
 //        mainButton1.setTitle("장미", for: .normal)
 //        mainButton2.setTitle("수련", for: .normal)
 //        mainButton3.setTitle("자스민", for: .normal)
+=======
+        BackgroundImage.image = UIImage(named: "Rose49322")
+        //BackgroundImage.backgroundColor = hexStringToUIColor(hex: "#f6d9e5")
+        IndexButton.setTitle("flower", for: .normal )
+>>>>>>> 1e640f6a3cfd1b07d8038e6ef4fcec306102ccde
         BackgroundImage.addSubview(blurEffectView)
         
         imageArray = [GifView1, GifView2, GifView3, GifView4, GifView5, GifView6, GifView7] as! [UIImage]
         
         
+<<<<<<< HEAD
         for i in 0..<imageArray.count{
             let imageView = UIImageView()
             imageView.image = imageArray[i]
             imageView.contentMode = .scaleAspectFit
+=======
+        
+        for i in 0..<imageArray.count{
+            let imageView = UIImageView()
+            imageView.image = imageArray[i]
+            imageView.contentMode = .scaleAspectFill
+>>>>>>> 1e640f6a3cfd1b07d8038e6ef4fcec306102ccde
             let xPosition = self.view.frame.width * CGFloat(i)
             imageView.frame = CGRect(x: xPosition, y: 0, width: (self.mainScrollView?.frame.width)!, height: (self.mainScrollView?.frame.height)!)
             
             mainScrollView?.contentSize.width = (mainScrollView?.frame.width)! * CGFloat(i + 1)
             mainScrollView?.addSubview(imageView)
         }
+<<<<<<< HEAD
         accordButton.addTarget(self, action: #selector(handleTapButton), for: .touchUpInside)
 //        mainButton1.addTarget(self, action: #selector(handleTapButton1), for: .touchUpInside)
 //        mainButton2.addTarget(self, action: #selector(handleTapButton2), for: .touchUpInside)
 //        mainButton3.addTarget(self, action: #selector(handleTapButton3), for: .touchUpInside)
+=======
+        IndexButton.addTarget(self, action: #selector(handleTapButton), for: .touchUpInside)
+>>>>>>> 1e640f6a3cfd1b07d8038e6ef4fcec306102ccde
     }
     
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
@@ -85,6 +111,7 @@ class firstViewController: UIViewController, UIScrollViewDelegate {
         print(currentPage)
         
         if currentPage == 0 {
+<<<<<<< HEAD
             BackgroundImage.image = UIImage(named: "floral_bg")
             accordButton.setTitle("맡으러가기", for: .normal )
 //            mainButton1.setTitle("장미", for: .normal)
@@ -174,6 +201,32 @@ class firstViewController: UIViewController, UIScrollViewDelegate {
         
         
     }*/
+=======
+             BackgroundImage.image = UIImage(named: "floral_bg")
+            IndexButton.setTitle("flower", for: .normal )
+        } else if currentPage == 1 {
+            BackgroundImage.image = UIImage(named: "oriental_bg")
+            IndexButton.setTitle("oriental", for: .normal )
+        } else if currentPage == 2 {
+            BackgroundImage.image = UIImage(named: "woody_bg")
+            IndexButton.setTitle("woody", for: .normal )
+        } else if currentPage == 3 {
+            BackgroundImage.image = UIImage(named: "rainy_bg")
+            IndexButton.setTitle("rainy", for: .normal )
+        } else if currentPage == 4 {
+            BackgroundImage.image = UIImage(named: "fruity_bg")
+            IndexButton.setTitle("fruity", for: .normal )
+        } else if currentPage == 5 {
+            BackgroundImage.image = UIImage(named: "spicy_bg")
+            IndexButton.setTitle("spicy", for: .normal )
+        } else if currentPage == 6 {
+            BackgroundImage.image = UIImage(named: "oceanic_bg")
+            IndexButton.setTitle("oceanic", for: .normal )
+        }
+    }
+    
+
+>>>>>>> 1e640f6a3cfd1b07d8038e6ef4fcec306102ccde
     
     @objc func handleTapButton() {
         let viewController:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController") as UIViewController
@@ -183,6 +236,7 @@ class firstViewController: UIViewController, UIScrollViewDelegate {
         print(currentPage)
         
         if currentPage == 0 {
+<<<<<<< HEAD
             Liked.shared.AccordArr = ReserveItem.items.filter({$0.accord == "플로랄"})
             self.navigationController?.pushViewController(viewController, animated: true)
         } else if currentPage == 1 {
@@ -320,4 +374,59 @@ class firstViewController: UIViewController, UIScrollViewDelegate {
 //                }
 //            }
     
+=======
+            //BackgroundImage.image = UIImage(named: "floral_bg")
+            Liked.shared.AccordArr = ReserveItem.items.filter({$0.accord == "스위트"})
+            self.navigationController?.pushViewController(viewController, animated: true)
+        } else if currentPage == 1 {
+            //BackgroundImage.image = UIImage(named: "oriental_bg")
+            self.navigationController?.pushViewController(viewController, animated: true)
+            Liked.shared.AccordArr = ReserveItem.items.filter({$0.accord == "플로랄"})
+        } else if currentPage == 2 {
+            //BackgroundImage.image = UIImage(named: "woody_bg")
+            self.navigationController?.pushViewController(viewController, animated: true)
+            Liked.shared.AccordArr = ReserveItem.items.filter({$0.accord == "스위트"})
+        } else if currentPage == 3 {
+            //BackgroundImage.image = UIImage(named: "rainy_bg")
+            self.navigationController?.pushViewController(viewController, animated: true)
+            Liked.shared.AccordArr = ReserveItem.items.filter({$0.accord == "스위트"})
+        } else if currentPage == 4 {
+            //BackgroundImage.image = UIImage(named: "fruity_bg")
+            self.navigationController?.pushViewController(viewController, animated: true)
+            Liked.shared.AccordArr = ReserveItem.items.filter({$0.accord == "스위트"})
+        } else if currentPage == 5 {
+            //BackgroundImage.image = UIImage(named: "spicy_bg")
+            self.navigationController?.pushViewController(viewController, animated: true)
+            Liked.shared.AccordArr = ReserveItem.items.filter({$0.accord == "스위트"})
+        } else if currentPage == 6 {
+            //BackgroundImage.image = UIImage(named: "oceanic_bg")
+            self.navigationController?.pushViewController(viewController, animated: true)
+            Liked.shared.AccordArr = ReserveItem.items.filter({$0.accord == "스위트"})
+        }
+        
+        
+        
+        
+        
+//        if (mainScrollView?.contentOffset.x)! / (mainScrollView?.frame.width)! < 0{
+//
+//            self.navigationController?.pushViewController(viewController, animated: true)
+//           // var items = items.filter({$0.accord == "스위트"})
+//            //
+//        }else if(mainScrollView?.contentOffset.x)! / (mainScrollView?.frame.width)! < 1{
+//            self.navigationController?.pushViewController(viewController, animated: true)
+//        }else if(mainScrollView?.contentOffset.x)! / (mainScrollView?.frame.width)! < 2{
+//            self.navigationController?.pushViewController(viewController, animated: true)
+//        }else if(mainScrollView?.contentOffset.x)! / (mainScrollView?.frame.width)! < 3{
+//            self.navigationController?.pushViewController(viewController, animated: true)
+//        }else if(mainScrollView?.contentOffset.x)! / (mainScrollView?.frame.width)! < 4{
+//            self.navigationController?.pushViewController(viewController, animated: true)
+//        }else if(mainScrollView?.contentOffset.x)! / (mainScrollView?.frame.width)! < 5{
+//            self.navigationController?.pushViewController(viewController, animated: true)
+//        }else if(mainScrollView?.contentOffset.x)! / (mainScrollView?.frame.width)! < 6{
+//            self.navigationController?.pushViewController(viewController, animated: true)
+//        }
+    }
+        
+>>>>>>> 1e640f6a3cfd1b07d8038e6ef4fcec306102ccde
 }

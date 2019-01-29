@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		3F1E64B0220023B200CF8AA9 /* sweet.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E64AF220023B200CF8AA9 /* sweet.gif */; };
+=======
+>>>>>>> 1e640f6a3cfd1b07d8038e6ef4fcec306102ccde
 		3F656A7F21FAE478006D1E7E /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F656A7E21FAE478006D1E7E /* Swift+Gif.swift */; };
 		3F656A8121FAE49A006D1E7E /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F656A8021FAE49A006D1E7E /* NavigationController.swift */; };
 		3F656A8321FAE4B0006D1E7E /* ExtensionColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F656A8221FAE4B0006D1E7E /* ExtensionColor.swift */; };
@@ -20,6 +23,7 @@
 		3F656A9221FAE98B006D1E7E /* fruity.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F656A8B21FAE989006D1E7E /* fruity.gif */; };
 		3F656A9321FAE98B006D1E7E /* woody.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F656A8C21FAE98B006D1E7E /* woody.gif */; };
 		3F7AE6DE21F70E8700385F2F /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7AE6DD21F70E8700385F2F /* detailViewController.swift */; };
+		3F8BF3B222001935006D865B /* Rose49322.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F8BF3B122001935006D865B /* Rose49322.gif */; };
 		3FE365BB21F5A4E600BCACF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE365BA21F5A4E600BCACF0 /* AppDelegate.swift */; };
 		3FE365BD21F5A4E600BCACF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE365BC21F5A4E600BCACF0 /* ViewController.swift */; };
 		3FE365C021F5A4E600BCACF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE365BE21F5A4E600BCACF0 /* Main.storyboard */; };
@@ -36,7 +40,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		3F1E64AF220023B200CF8AA9 /* sweet.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sweet.gif; sourceTree = "<group>"; };
+=======
+>>>>>>> 1e640f6a3cfd1b07d8038e6ef4fcec306102ccde
 		3F656A7E21FAE478006D1E7E /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
 		3F656A8021FAE49A006D1E7E /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		3F656A8221FAE4B0006D1E7E /* ExtensionColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionColor.swift; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		3F656A8B21FAE989006D1E7E /* fruity.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fruity.gif; sourceTree = "<group>"; };
 		3F656A8C21FAE98B006D1E7E /* woody.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = woody.gif; sourceTree = "<group>"; };
 		3F7AE6DD21F70E8700385F2F /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		3F8BF3B122001935006D865B /* Rose49322.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Rose49322.gif; sourceTree = "<group>"; };
 		3FE365B721F5A4E600BCACF0 /* NewMasterDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewMasterDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE365BA21F5A4E600BCACF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FE365BC21F5A4E600BCACF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
@@ -104,11 +112,18 @@
 				3FE365BC21F5A4E600BCACF0 /* ViewController.swift */,
 				3FE365BE21F5A4E600BCACF0 /* Main.storyboard */,
 				3F656A8621FAE986006D1E7E /* floral.gif */,
+<<<<<<< HEAD
+=======
+				3F8BF3B122001935006D865B /* Rose49322.gif */,
+>>>>>>> 1e640f6a3cfd1b07d8038e6ef4fcec306102ccde
 				3F656A8721FAE986006D1E7E /* oriental.gif */,
 				3F656A8C21FAE98B006D1E7E /* woody.gif */,
 				3F656A8821FAE988006D1E7E /* rainy.gif */,
 				3F656A8B21FAE989006D1E7E /* fruity.gif */,
+<<<<<<< HEAD
 				3F1E64AF220023B200CF8AA9 /* sweet.gif */,
+=======
+>>>>>>> 1e640f6a3cfd1b07d8038e6ef4fcec306102ccde
 				3F656A8921FAE988006D1E7E /* spicy.gif */,
 				3F656A8A21FAE988006D1E7E /* oceanic.gif */,
 				3FE365C121F5A4E700BCACF0 /* Assets.xcassets */,
@@ -193,11 +208,15 @@
 				3FF3527B21FEEE63000FA9DE /* KCC은영체(모바일용).otf in Resources */,
 				3F656A9321FAE98B006D1E7E /* woody.gif in Resources */,
 				3FE365C221F5A4E700BCACF0 /* Assets.xcassets in Resources */,
+<<<<<<< HEAD
 				3F1E64B0220023B200CF8AA9 /* sweet.gif in Resources */,
+=======
+>>>>>>> 1e640f6a3cfd1b07d8038e6ef4fcec306102ccde
 				3F656A8F21FAE98B006D1E7E /* rainy.gif in Resources */,
 				3F656A8D21FAE98B006D1E7E /* floral.gif in Resources */,
 				3F656A9021FAE98B006D1E7E /* spicy.gif in Resources */,
 				3FE365C021F5A4E600BCACF0 /* Main.storyboard in Resources */,
+				3F8BF3B222001935006D865B /* Rose49322.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
